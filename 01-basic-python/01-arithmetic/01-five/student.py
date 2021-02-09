@@ -1,2 +1,3 @@
 # Write your code here
-hihi
+def five():
+    return 5
