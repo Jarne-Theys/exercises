@@ -1,10 +1,10 @@
 # Write your code here
 def remove_duplicates(xs):
-    found = set()
+    algehad = set()
     result = []
     for x in xs:
-        if x not in found:
+        if x not in algehad:
             result.append(x)
-            found.add(x)
+            algehad.add(x)
     return result
     # return list(dict.fromkeys(xs)) Kortere oplossing?
