@@ -1,11 +1,11 @@
 import sys
 import json
 import urllib.request
+from PIL import Image
 
 
-def fetch_data(n)
-
-   if n:
+def fetch_data(n):
+    if n:
         url = f"http://xkcd.com/{n}/info.0.json"
     else:
         url = "http://xkcd.com/info.0.json"
